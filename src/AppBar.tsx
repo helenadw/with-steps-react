@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" color='transparent'>
+    <AppBar position="sticky" color='transparent'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
             <img src={logo} alt="logo" style={

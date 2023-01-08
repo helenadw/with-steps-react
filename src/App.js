@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ResponsiveAppBar />
-        <Hero />
       </header>
+      <Hero />
+
     </div>
   );
 }
