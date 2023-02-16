@@ -9,6 +9,7 @@ import Paper from '@mui/material/Paper';
 import { Chip } from '@mui/material';
 import { Timeline } from '@mui/icons-material';
 import HeroTimeline from './HeroTimeline.tsx';
+import SavingTimeline from './SavingTimeline/SavingTimeline.tsx';
 
 const Hero = () => {
     return (
@@ -50,6 +51,7 @@ const Hero = () => {
          
             {/* create a roadmap animation with a line and purple dots along the way that appear and a little but of text that pops up to show what each stage is */}
         </Container>
+        <SavingTimeline />
         <HeroTimeline />
         </Box>
     );
